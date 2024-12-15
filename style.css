@@ -1,0 +1,125 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+}
+.logo {
+    display: flex;
+    align-items: center; 
+   
+  }
+  nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+  }
+  
+  nav ul li {
+    margin-left: 20px; 
+    background-color: rgb(141, 151, 51);
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 18px; 
+    padding: 10px;
+
+  }
+  
+#home{
+    display: flex;
+    justify-content:center;
+}
+
+.vehicle {
+   
+    font-size: 16px;
+    color: #b2b2b2;
+    place-self: center;
+    width: 1000px;
+    max-height: auto;
+}
+
+.card-content{
+    display: flex;
+
+}
+
+.card-content p{
+    display: inline;
+}
+
+.card{
+    display: grid;
+    border-radius: 4px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin: 3%;
+    background-color: #111;
+    
+} 
+
+.text{
+    display: block;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 1em;
+}
+
+.text button{
+    display: block;
+    text-align: left;
+}
+
+.text p{
+    display: block;
+}
+/* Foto dos carros */
+#carro{
+    width: 360px;
+    height: 190px;
+    margin: 2%;
+    border-radius: 10px;
+    
+}
+
+
+h2{
+    padding: 0;
+    color: white;
+}
+span{
+    color: #febe01;
+    font-weight: bold;
+}
+
+button{
+    border: none;
+    background-color: #febe01;
+    color: #332200;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 1em;
+    padding: 8%;
+    cursor: pointer;
+
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 110px;
+    border: solid 5px rgb(141, 151, 51);
+    margin-right: 10px;
+}

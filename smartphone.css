@@ -1,0 +1,74 @@
+body{
+    display: grid;
+    align-items: center;
+    font-size: 14px;  
+}
+
+header{
+    display: block;
+}
+
+.logo{
+    display: block;
+
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+    
+}
+nav ul li {
+    padding: 8px;
+    margin: 0;
+}
+nav ul li a{
+    padding: 3px;
+}
+
+.vehicle{
+    width: auto;
+}
+
+#home{
+        display: block;
+}
+
+
+.card{
+    max-width: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 0px;
+    }
+
+.card-content{
+    display: block;
+    padding: 20px;
+}
+
+#carro{
+    width: 300px;
+    height: 150px;
+    margin: 0;
+}
+
+.text {
+    display: block;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 0.9em;
+}
+
+
+    
+
+   
+
